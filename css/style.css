@@ -95,28 +95,37 @@ header img{
     text-align: center;
 }
 
-#reviews img{
-    padding: 30px 40px;
-    background-color: gray;
+.review-card{
+    margin-top: 40px;
+    padding: 20px;
+    border: 2px solid var(--light-gray);
 }
 
-#reviews p{
+.review-card img{
+    margin: 30px 60px;
+    clip-path: circle();
+    height: 150px;
+    width: 150px;
+}
+
+.review-card p{
     color: var(--dark-gray);
     font-weight: 400;
     font-size: 16px;
 }
 
-#reviews i{
+.review-card i{
     color: var(--orange);
 }
 
-#reviews a{
+.review-card a{
     color: var(--normal-blue);
     font-size: 14px;
     font-weight: 600;
+    padding: 15px 0;
 }
 
-#reveiws h5{
+.review-card h5{
     color: var(--black);
     font-size: 14px;
     font-weight: 600;
