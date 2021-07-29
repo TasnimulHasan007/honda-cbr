@@ -24,7 +24,7 @@ h2{
 p{
     font-weight: 300;
     font-size: 14px;
-    color: var(--light-gray);
+    color: var(--dark-gray);
 }
 
 a{
@@ -62,6 +62,10 @@ header .container h2{
     color: #FFF;
 }
 
+header p{
+    color: var(--light-gray);
+}
+
 header img{
     padding-top: 40px;
 }
@@ -78,7 +82,7 @@ header img{
     transition: all 0.3s ease;
 }
 
-.honda-btn:hover{
+.honda-btn:hover, .honda-btn:focus{
     color: var(--orange);
     box-shadow: inset 0 0 0 0px var(--orange);
 }
@@ -113,7 +117,6 @@ header img{
 }
 
 .review-card p{
-    color: var(--dark-gray);
     font-weight: 400;
     font-size: 16px;
 }
@@ -142,7 +145,6 @@ header img{
 }
 
 .accordion p{
-    color: var(--dark-gray);
     font-weight: 400;
     font-size: 16px;
 }
