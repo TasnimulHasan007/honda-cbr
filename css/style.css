@@ -60,3 +60,17 @@ header img{
 #featured{
     text-align: center;
 }
+
+#featured p{
+    color: var(--orange);
+    font-weight: 600;
+}
+
+#featured .grayscale{
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+#featured .grayscale:hover{
+    filter: none;
+}
