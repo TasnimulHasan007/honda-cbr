@@ -51,6 +51,24 @@ button:focus{
     filter: none;
 }
 
+.honda-btn{
+    border: 3px solid var(--orange);
+    color: #fff;
+    box-shadow: inset 0 400px 0 0 var(--orange);
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 10px 40px;
+    transition: all 0.3s ease;
+}
+
+.honda-btn:hover,
+.honda-btn:focus,
+.honda-btn:active{
+    color: var(--orange);
+    box-shadow: inset 0 0 0 0px var(--orange);
+}
 
 /* Header Styles */
 header{
@@ -70,22 +88,7 @@ header img{
     padding-top: 40px;
 }
 
-.honda-btn{
-    border: 3px solid var(--orange);
-    color: #fff;
-    box-shadow: inset 0 400px 0 0 var(--orange);
-    background-color: transparent;
-    font-size: 16px;
-    font-weight: 500;
-    border-radius: 5px;
-    padding: 10px 40px;
-    transition: all 0.3s ease;
-}
 
-.honda-btn:hover, .honda-btn:focus{
-    color: var(--orange);
-    box-shadow: inset 0 0 0 0px var(--orange);
-}
 
 
 /* Featured Section Styles */
@@ -150,5 +153,25 @@ header img{
 }
 
 .accordion-item{
-    border: 1px solid #D5E5FB;
+    border-color: #D5E5FB;
+}
+
+/* Newsletter */
+#newsletter{
+    text-align: center;
+    background-color: var(--dark-blue);
+    color: #fff;
+}
+
+#newsletter h3{
+    color: var(--light-gray);
+}
+
+#newsletter form{
+    margin: 30px 10px;
+}
+
+#newsletter input[type="email"]{
+    padding: 10px;
+    margin-right: 15px;
 }
