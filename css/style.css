@@ -129,18 +129,19 @@ header img{
 
 /* Review Section */
 .review-card{
+    min-width: 250px;
     margin-top: 40px;
     padding: 20px;
-    border: 2px solid var(--light-gray);
+    border: 2px solid var(--light-gray) !important; 
     transition: border-color 0.3s ease-in;
 }
 
 .review-card:hover{
-    border-color: var(--orange);
+    border-color: var(--orange) !important;
 }
 
 .review-card img{
-    margin: 30px 60px;
+    margin: 30px auto;
     clip-path: circle();
     height: 150px;
     width: 150px;
