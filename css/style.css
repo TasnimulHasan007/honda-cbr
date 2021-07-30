@@ -170,7 +170,11 @@ header img{
     font-weight: 600;
 }
 
-/* Accordion */
+/* F.A.Q */
+#faq > h2{
+    margin-bottom: 80px;
+}
+
 .accordion h2{
     margin: 0;
     color: var(--black);
@@ -254,4 +258,28 @@ header img{
 
 #contact a:hover{
     color: var(--orange);
+}
+
+/* Footer */
+footer{
+    background-color: #0B0D17;
+    color: #fff;
+}
+
+footer section{
+    text-align: left;
+}
+
+footer section a{
+    color: #fff;
+    padding-right: 15px;
+    transition: color 0.3s ease;
+}
+
+footer section a:hover{
+    color: var(--light-gray);
+}
+
+footer section p{
+    color: #fff;
 }
