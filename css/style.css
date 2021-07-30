@@ -102,18 +102,21 @@ header img{
 }
 
 .honda-nav-link{
+    border-radius: 5px 5px 0 0;
     color: var(--light-gray);
     padding: 10px;
     margin-right: 15px;
     border-bottom: 3px solid transparent;
-    transition: border 0.3s ease,
-                color 0.3s ease;
+    transition: border 0.5s ease,
+                color 0.3s ease,
+                background 0.4s ease;
 }
 
 .honda-nav-link:hover,
 .honda-nav-link:focus{
     color: var(--orange);
     border-bottom: 3px solid var(--orange);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* Banner */
