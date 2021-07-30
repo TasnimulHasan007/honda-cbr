@@ -165,7 +165,7 @@ header img{
 /* Newsletter */
 #newsletter{
     text-align: center;
-    background-color: var(--dark-blue);
+    background: url("/images/bike-bg.jpg") no-repeat center center/cover;
     color: #fff;
 }
 
