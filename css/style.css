@@ -110,6 +110,11 @@ header img{
     margin-top: 40px;
     padding: 20px;
     border: 2px solid var(--light-gray);
+    transition: border-color 0.3s ease-in;
+}
+
+.review-card:hover{
+    border-color: var(--orange);
 }
 
 .review-card img{
@@ -136,6 +141,7 @@ header img{
 }
 
 .review-card h5{
+    height: 100%;
     color: var(--black);
     font-size: 14px;
     font-weight: 600;
@@ -173,7 +179,7 @@ header img{
 
 #newsletter input[type="email"]{
     padding: 10px;
-    margin-right: 15px;
+    margin: 15px;
 }
 
 /* Contact */
