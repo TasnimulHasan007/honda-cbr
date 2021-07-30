@@ -15,6 +15,10 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+section{
+    text-align: center;
+}
+
 h2{
     font-weight: 600;
     font-size: 48px;
@@ -76,6 +80,10 @@ header{
     color: #fff;
 }
 
+header section{
+    text-align: left;
+}
+
 header .container h2{
     color: #FFF;
 }
@@ -88,24 +96,13 @@ header img{
     padding-top: 40px;
 }
 
-
-
-
 /* Featured Section Styles */
-#featured{
-    text-align: center;
-}
-
 #featured p{
     color: var(--orange);
     font-weight: 600;
 }
 
 /* Review Section */
-#reviews{
-    text-align: center;
-}
-
 .review-card{
     margin-top: 40px;
     padding: 20px;
@@ -162,9 +159,39 @@ header img{
     border-color: #D5E5FB;
 }
 
+/* Riders */
+#riders img{
+    height: 200px;
+}
+
+#riders a{
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 10px, 
+                rgba(0, 0, 0, 0.23) 0px 5px 10px;
+}
+
+#riders a::after{
+    content: "Read More On Weki";
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    background: var(--black);
+    color: var(--orange);
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+#riders a:hover::after{
+    bottom: 0;
+}
+
 /* Newsletter */
 #newsletter{
-    text-align: center;
     background: url("/images/bike-bg.jpg") no-repeat center center/cover;
     color: #fff;
 }
@@ -183,9 +210,6 @@ header img{
 }
 
 /* Contact */
-#contact{
-    text-align: center;
-}
 
 #contact button{
     margin: 30px 0;
